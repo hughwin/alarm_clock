@@ -26,7 +26,7 @@ newlist = []
 newlist += list
 print newlist
 
-pick = random.randrange(1, 3)
+pick = random.randrange(len(newlist))
 print pick
 
 #Ask the user what time the alarm should go off
