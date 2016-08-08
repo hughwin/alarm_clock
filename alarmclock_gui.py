@@ -43,7 +43,7 @@ class Application(Frame):
 		#Print starting time
 		print(time.strftime("%H:%M:%S"))
 		the_time = (time.strftime("%H:%M:%S"))
-		while self.running  == True and sound != the_time:
+		while running  == True and sound != the_time:
 			print(time.strftime("%H:%M:%S"))
 			root.after(1000)
 		if sound == the_time:
