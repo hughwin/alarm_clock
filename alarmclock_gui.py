@@ -1,4 +1,6 @@
 # A version of the alarm clock with a working GUI. 
+# The program unfortunately does get stuck in an infinite loop when it starts, but it does work. I will try in the future to fix the
+#counter so the other buttons can be interacted with. 
 import time
 
 from tkinter import * 
